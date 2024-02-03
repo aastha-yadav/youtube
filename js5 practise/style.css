@@ -1,0 +1,131 @@
+*{
+    margin:0;
+    padding:0;
+    box-sizing:border-box;
+}
+
+html,body{
+    width:100%;
+    height:100%;
+    background:linear-gradient(rgb(237, 28, 28),rgb(198, 92, 92),rgb(73, 73, 121));
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+#box{
+    height: 80vh;
+    width: 25vw;
+    background-color: white;
+    border-radius: 2px;
+    border: 7px rgb(12, 12, 12) solid;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+#child1{
+    height:17%;
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+#child1 #part1{
+    height: 80px;
+    width: 80px;
+    border-radius: 50%;
+    /* background-color: red; */
+    margin-left: 10px;
+    margin-top: 5px;
+    
+}
+h1{
+    margin-left: -230px;
+    font-size: 20px;
+    margin-top: -30px;
+    color: rgb(8, 9, 9);
+    font-style: italic;
+   
+
+}
+#child1 img{
+    height: 80px;
+    width: 80px;
+    border-radius: 50%;
+    border:3px green solid ;
+
+}
+#child2{
+    height:60%;
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-top: 20px;
+}
+
+#child2 img{
+    height: 100%;
+    width: 90%;
+    border: 2px solid black;
+}
+#child3{
+    height:30%;
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+
+}
+#child2 i{
+    position: absolute;
+    color: white;
+    font-size: 60px;
+    transition: all ease 2s;
+    display: none;
+}
+#child3 #part1{
+    height: 30%;
+    width: 50%;
+    /* background-color: red; */
+    margin: 15px;
+    font-size: 30px;
+    display: flex;
+    gap: 17px;
+}
+#part2 i{
+    height: 30%;
+    width: 50%;
+    /* background-color: red; */
+    margin: 15px;
+    font-size: 30px;
+    display: flex;
+    gap: 17px;
+}
+#child4{
+    height: 5%;
+    width: 100%;
+    font-size: 13px;
+}
+h2{
+   position: absolute;
+   top: 83%;
+   left: 39%;
+}
+#red{
+    color: red;
+    display: none;
+}
+#button{
+    display: initial;
+}
+#button:hover{
+    transform: scale(1.4);
+
+}
+i:hover{
+    transform: scale(1.3);
+}
+#child1 #part1:hover{
+    transform: scale(1.1);
+}

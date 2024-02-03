@@ -1,0 +1,95 @@
+*{
+    margin:0;
+    padding:0;
+    box-sizing:border-box;
+    color: #FEFAE0;
+    font-family: Comback Home;
+    
+}
+
+html,body{
+    width:100%;
+    height:100%;
+    overflow: hidden;
+}
+.screen{
+    height: 100%;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #B99470;
+    flex-direction: column;
+    transition: all ease 0.6s;
+}
+h2{
+    font-size: 50px;
+    font-family: Comback Home;
+    letter-spacing: 15px;
+    font-weight: 900;
+    margin-bottom: 40px;
+}
+button{
+    text-align: center;
+    padding: 20px 40px;
+    background-color: rgba(255, 255, 255, 0.43);
+    border: 2px solid rgba(11, 11, 11, 0.95);
+    color:white;
+    font-size: 30px;
+    transition: all ease 0.2s;
+    text-transform: uppercase;
+    letter-spacing: 10px;
+    font-weight: 900;
+    box-shadow: 2px 2px black;
+    margin-top: 60px;
+}
+button:hover{
+    background-color: rgba(67, 227, 67, 0.464);
+    transform: scale(1.1);
+    cursor: pointer;
+}
+#elem-container{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 40px;
+    gap: 50px;
+}
+.elem{
+    height: 200px;
+    width: 200px;
+    border: 2px solid #e2dec6;
+    text-align: center;
+    padding: 20px;
+    transition: all ease 0.3s;
+    cursor: grab;
+}
+.elem:hover{
+    background-color: #fefae05c;
+}
+img{
+    height: 110px;  
+}
+h4{
+    margin-bottom: 20px;
+    text-align: center;
+    letter-spacing: 10px;
+}
+.screen .time-score{
+    padding: 12px 25px;
+    height: 10%;
+    width: 100%;
+    display: flex; 
+    align-items: center;
+    justify-content: space-between;  
+    border-bottom: 2px solid #FEFAE0;
+}
+
+.screen .time-score h5{
+    font-size: 24px;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+.playground{
+    height: 90%;
+    width: 100%;
+}
